@@ -1,0 +1,265 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.z-index {
+  z-index: -100;
+}
+
+.first-section-knee-text {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+.first-section-knee .header-knee {
+  position: relative;
+}
+
+.first-section-knee .header-knee .img-text-knee {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.first-section-knee .header-title {
+  text-align: center;
+  font-size: 1.5rem;
+
+  font-weight: 500;
+  margin-top: 2.5rem;
+}
+
+.header-desc {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+  font-weight: 400;
+}
+
+/* Second Section Knee*/
+
+.second-section-knee {
+  margin-top: 2rem;
+  background-color: #f3f3f3;
+}
+
+.second-section-knee .col-description {
+  margin-top: 3.5rem;
+  padding-right: 2.2rem;
+}
+
+.col-description h4 {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+.point-desc {
+  line-height: 1.7;
+}
+
+.second-section-knee .col-description p {
+  margin-top: 1.5rem;
+}
+.col-description p {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+/* Third Section Knee */
+
+.third-section-knee {
+  background-color: #eef8f3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.third-section-knee h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.third-section-knee .benefits-list {
+  padding-top: 2rem;
+}
+
+.third-section-knee ol {
+  list-style: none;
+}
+
+.third-section-knee ol hr {
+  height: 2px;
+  color: #010101;
+}
+
+.third-section-knee ol li {
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding-left: 1.5em;
+  text-indent: -1.2em;
+}
+
+/* Fourth Section Knee */
+.fourth-section-knee {
+  margin-top: 2rem;
+  padding-left: 4rem;
+}
+
+.fourth-section-knee h4 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding-top: 1.5rem;
+}
+
+.fourth-section-knee p {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.fourth-section-knee ul {
+  margin-left: -1rem;
+}
+
+.fourth-section-knee ul li {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* Fifth Section Knee */
+.fifth-section-knee {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.fifth-section-knee h2,
+.fifth-section-knee p {
+  text-align: center;
+}
+
+.fifth-section-dental {
+  margin-top: 3rem !important;
+  margin-bottom: 2rem;
+}
+.fifth-section-dental p {
+  margin-bottom: 1.6rem !important;
+}
+
+.fifth-section-knee p {
+  font-size: 1.4rem;
+  margin-top: 1rem;
+}
+
+.fifth-section-knee .boxes {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.p-title {
+  font-size: 1.8rem;
+  margin-top: 1.5rem !important;
+}
+
+.fifth-section-knee .boxes .first-box {
+  width: 182px;
+  height: 182px;
+  border-radius: 9px;
+  background-color: #eef8f3;
+  position: relative;
+}
+
+.fifth-section-knee .boxes .first-box img {
+  width: 73px;
+  height: 73px;
+  object-fit: contain;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+.boxes .outside-box {
+  width: 185px;
+}
+.h2-title-thirdsec {
+  font-size: 1.8rem !important;
+}
+
+.boxes .outside-box .price-description {
+  font-size: 13px;
+}
+
+.boxes .outside-box .price-value {
+  font-weight: 700 !important;
+  color: #34a86e;
+  font-size: 18px !important;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination {
+  position: static;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: var(--swiper-pagination-bottom, -15px);
+}
+
+.fifth-section-knee .swiper-pagination-bullet-active {
+  width: 25px;
+  border-radius: 4px;
+  background: #5bbf8d;
+}
+
+.h2-title-fifth {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.quote-column {
+  margin-top: 2rem;
+}
+
+.get-quote-wrapper {
+  background-color: #ddffef;
+  padding: 2rem;
+  width: 80%;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+
+.get-quote-wrapper button {
+  width: 200px;
+  padding: 1.2rem 2.4rem !important;
+  background-color: #34a86e;
+  border: none;
+  font-weight: 700;
+}
+
+.swiper-texts {
+  font-size: 1.6rem !important;
+  font-weight: 500;
+  text-align: start;
+}
+.d-mobile {
+  display: none;
+}
+
+.br-responsive {
+  display: none;
+}

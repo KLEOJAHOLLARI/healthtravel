@@ -1,0 +1,344 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.section-hero {
+  min-height: 0rem;
+  padding: 0;
+  background-image: linear-gradient(
+      90deg,
+      #eef8f3 2.85%,
+      rgba(238, 248, 243, 0.7) 40%,
+      rgba(238, 248, 243, 0) 90%
+    ),
+    url("../img/img-eye-surgery/eye-doted.png");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.hero {
+  gap: 0;
+  padding: 0;
+}
+
+.hero-text-box {
+  margin-bottom: 2rem;
+}
+
+.hero-text-box {
+  padding: 2rem;
+}
+
+.dental-decribe {
+  display: flex;
+  padding: 5rem 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  margin: 0 auto;
+  background-color: #76dcad;
+}
+
+.text-box-header-dental {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.text-dental-decribe {
+  font-weight: 100;
+  text-align: start;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+.bolded {
+  font-weight: 900;
+}
+
+.remove {
+  display: none !important;
+}
+.img-responsive {
+  width: 100% !important;
+}
+
+.hero-description {
+  display: inline;
+}
+
+.hero-img-box {
+  display: flex;
+  justify-content: flex-start;
+  width: 110%;
+  margin-left: 0 !important;
+}
+
+.describe-section {
+  margin-bottom: 6rem;
+  margin-top: 6rem;
+}
+
+.story__pictures {
+  grid-column: 2/-1;
+}
+.story__content {
+  grid-column: 1/2;
+}
+
+.story__content-1 {
+  grid-column: 2/3;
+  margin-left: 3rem;
+}
+
+.story__pictures-1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.icon {
+  width: 100%;
+  display: flex;
+}
+.section-icons {
+  padding: 7rem 0rem;
+}
+
+.icon-price {
+  background-color: #fff !important;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+}
+
+.price {
+  color: #000;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.number {
+  color: #34a86e;
+  color: #34a86e;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.nav-cta {
+  border-radius: 0 !important;
+  border-radius: 1rem !important;
+}
+
+.padding-high {
+  padding: 2rem 16rem !important;
+}
+
+.middle-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  background-color: #eef8f3;
+  margin-bottom: 6rem;
+}
+
+.main-nav-link {
+  color: #fff;
+  font-size: 1.7rem !important;
+  font-weight: 900;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}
+
+.footer {
+  border: none;
+}
+
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+  .story__pictures {
+    width: 100%;
+  }
+}
+
+/* 1147px */
+@media (max-width: 71.7em) {
+  .header {
+    padding: 0 1rem !important;
+  }
+}
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+
+  .section-hero {
+    padding: 0;
+    background-color: #eef8f3;
+    background-image: none !important;
+  }
+  .remove {
+    display: block !important;
+  }
+  .hero-img {
+    border-radius: 0 !important;
+  }
+  .dental-decribe {
+    padding: 3rem 1rem;
+  }
+
+  .story__pictures {
+    grid-column: 1/-1;
+    padding: 1rem;
+    margin-left: 0;
+  }
+  .story__content {
+    grid-column: 1/-1;
+    padding: 1rem;
+  }
+
+  .story__content-1 {
+    grid-column: 1/-1;
+    padding: 1rem;
+    margin-left: 0;
+  }
+
+  .story__pictures-1 {
+    grid-column: 1/-1;
+    margin-left: 0;
+    padding: 1rem;
+  }
+
+  .nav-cta {
+    border-radius: 0 !important;
+    width: 100%;
+  }
+  .grid--3-cols {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .icon {
+    width: 100% !important;
+  }
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+  .middle-button {
+    padding: 3rem !important;
+  }
+  .dental-decribe {
+    padding: 3rem 0rem !important;
+  }
+  .main-nav-link.nav-cta:link {
+    padding: 2rem !important;
+    font-size: 1.9rem !important;
+  }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  .container {
+    padding: 0 1rem;
+  }
+  .hero-text-box {
+    grid-row: 1/2;
+    padding: 2rem 0;
+    margin-left: 0;
+  }
+  .hero-description {
+    margin: 0;
+  }
+
+  .describe-section {
+    margin: 0;
+  }
+
+  .story__pictures {
+    grid-column: 1/-1;
+    padding: 1rem 0;
+    margin-left: 0;
+  }
+  .story__content {
+    grid-column: 1/-1;
+    padding: 1rem 0;
+  }
+
+  .story__content-1 {
+    grid-column: 1/-1;
+    padding: 1rem 0;
+    margin-left: 0;
+  }
+
+  .story__pictures-1 {
+    grid-column: 1/-1;
+    margin-left: 0;
+    padding: 1rem 0;
+  }
+  .middle-button {
+    padding: 0 !important;
+    margin-bottom: 0;
+  }
+
+  .section-icons {
+    margin-bottom: 0 !important;
+    padding: 2rem 0;
+  }
+
+  .heading-tertiary {
+    text-align: start !important;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+  }
+  .padding-high {
+    padding: 1.6rem 3.2rem !important;
+  }
+  .grid--3-cols {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .icon {
+    width: 100% !important;
+  }
+}
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 75em) {
+  .hero-img {
+    display: flex;
+    justify-content: flex-start;
+    width: 110%;
+  }
+}
+
+@media (max-width: 390px) {
+  .grid--3-cols {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
