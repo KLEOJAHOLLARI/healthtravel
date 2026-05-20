@@ -22,3 +22,10 @@ const year = document.getElementById("year");
 if (year) {
   year.textContent = new Date().getFullYear();
 }
+
+const icon = document.querySelectorAll(".icon");
+const allLinks = document.querySelectorAll("a:link");
+allLinks.forEach(function (link) {
+  if (link.classList.contains("main-nav-link"))
+    headerEl.classList.toggle("nav-open");
+});
