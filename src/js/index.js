@@ -89,3 +89,58 @@ document.addEventListener("DOMContentLoaded", function () {
     animate();
   });
 });
+
+//slider
+document.addEventListener("DOMContentLoaded", function () {
+  const slider = document.querySelector(".gallery-slider");
+
+  const cards = document.querySelectorAll(".gallery-card");
+
+  const nextBtn = document.querySelector(".next-btn");
+
+  const prevBtn = document.querySelector(".prev-btn");
+
+  const dots = document.querySelectorAll(".dot");
+
+  if (!slider) return;
+
+  let currentIndex = 2;
+
+  const cardWidth = 240;
+
+  function updateSlider() {
+    slider.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+
+    cards.forEach((card) => {
+      card.classList.remove("active");
+    });
+
+    dots.forEach((dot) => {
+      dot.classList.remove("active-dot");
+    });
+
+    cards[currentIndex].classList.add("active");
+
+    if (dots[currentIndex]) {
+      dots[currentIndex].classList.add("active-dot");
+    }
+  }
+
+  nextBtn.addEventListener("click", function () {
+    if (currentIndex < cards.length - 1) {
+      currentIndex++;
+
+      updateSlider();
+    }
+  });
+
+  prevBtn.addEventListener("click", function () {
+    if (currentIndex > 0) {
+      currentIndex--;
+
+      updateSlider();
+    }
+  });
+
+  updateSlider();
+});

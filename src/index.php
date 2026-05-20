@@ -40,21 +40,6 @@
     <?php include 'pages/counter.php'; ?>
     <!-- Section 2  -->
     <?php include 'pages/galleryitem.php'; ?>
-
-    <div class="swiper remove-944">
-        <div class="slideshow-container">
-            <div class="mySlides fade"></div>
-            <a class="prev">&#10094;</a>
-            <a class="next">&#10095;</a>
-
-            <div class="dots">
-                <span class="dot-green"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-            </div>
-        </div>
-    </div>
     </section>
 
     <!-- Section 4  -->
