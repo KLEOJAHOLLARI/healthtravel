@@ -49,3 +49,41 @@ accordion.forEach(function (item) {
     }
   });
 });
+
+//scroll reveal animation
+const sections = document.querySelectorAll(".hidden");
+
+window.addEventListener("scroll", function () {
+  sections.forEach(function (section) {
+    const sectionTop = section.getBoundingClientRect().top;
+
+    if (sectionTop < window.innerHeight - 100) {
+      section.classList.add("show");
+    }
+  });
+});
+
+//counter
+const counters = document.querySelectorAll(".counter");
+
+const speed = 200;
+
+counters.forEach((counter) => {
+  const animate = () => {
+    const value = +counter.getAttribute("data-count");
+
+    const data = +counter.innerText;
+
+    const time = value / speed;
+
+    if (data < value) {
+      counter.innerText = Math.ceil(data + time);
+
+      setTimeout(animate, 15);
+    } else {
+      counter.innerText = value;
+    }
+  };
+
+  animate();
+});
