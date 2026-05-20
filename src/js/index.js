@@ -17,15 +17,35 @@ window.addEventListener("scroll", function () {
   }
 });
 
+//get  full year
 const year = document.getElementById("year");
 
 if (year) {
   year.textContent = new Date().getFullYear();
 }
 
+//responsible navbar
 const icon = document.querySelectorAll(".icon");
 const allLinks = document.querySelectorAll("a:link");
+
 allLinks.forEach(function (link) {
   if (link.classList.contains("main-nav-link"))
     headerEl.classList.toggle("nav-open");
+});
+
+//accordion in hair transplant
+const accordion = document.querySelectorAll(".accordion");
+
+accordion.forEach(function (item) {
+  item.addEventListener("click", function () {
+    this.classList.toggle("active");
+
+    const panel = this.nextElementSibling;
+
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
 });
