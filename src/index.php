@@ -60,13 +60,13 @@
                 Top Quality medical materials, Digital Imaging, Laser Surgery, Mercury-free dental fillings, Sedation
                 for painless treatment.
             </p>
-            <a href="#" class="btn btn--outline">Learn more <ion-icon name="arrow-forward"></ion-icon></a>
+            <a href="#" class="btn btn--outline">Learn more<ion-icon name="arrow-forward"></ion-icon></a>
         </div>
     </section>
-
     <?php include 'pages/beforeafter.php'; ?>
     <?php include 'pages/medicalmore.php'; ?>
     <?php include 'pages/footer.php'; ?>
+
 
 
     <script src="./js/index.js"></script>
