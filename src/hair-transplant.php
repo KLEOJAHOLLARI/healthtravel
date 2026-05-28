@@ -25,8 +25,6 @@
             <img src="https://webapp.recufe.com/healthTravel/frontend/assets/hero/after-hair-transplantation-surgical-technique-that-2022-10-05-22-49-00-utc%201.png"
                 alt="Hair Transplant" class="hero-hairtransplant-img" />
 
-            <div class="hero-overlay"></div>
-
             <div class="hero-hairtransplant-title">
                 HAIR TRANSPLANT
             </div>

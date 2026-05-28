@@ -93,19 +93,13 @@ document.addEventListener("DOMContentLoaded", function () {
 //slider
 document.addEventListener("DOMContentLoaded", function () {
   const slider = document.querySelector(".gallery-slider");
-
   const cards = document.querySelectorAll(".gallery-card");
-
   const nextBtn = document.querySelector(".next-btn");
-
   const prevBtn = document.querySelector(".prev-btn");
-
   const dots = document.querySelectorAll(".dot");
 
   if (!slider) return;
-
   let currentIndex = 2;
-
   const cardWidth = 240;
 
   function updateSlider() {

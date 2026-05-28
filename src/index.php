@@ -18,31 +18,36 @@
     <?php include 'pages/header.php'; ?>
 
     <!-- Section 1  -->
-    <section class="section-hero">
+    <section class="section-hero vh">
+        <div class="hero-video-box">
+            <video autoplay muted loop playsinline class="hero-video">
+                <source src="./img/video/healthvideo1.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay"></div>
         </div>
         <div class="hero container">
-            <div class="hero-img-box">
-                <img src="./img/group-of-doctors-walking-in-corridor.jpg" alt="group-of-doctors-walking-in-corridor"
-                    class="hero-img hero-img-390px none " />
-            </div>
             <div class="hero-text-box">
-                <p class="heading no-margin">Professional Services for</p>
-                <h3 class="heading-secondary">Medical Tourism in Albania</h3>
-                <p class="hero-description">
-                    Medical centers in Albania have built a reputation for being outstanding in the teeth and hair
-                    implant treatments.
+                <p class="heading no-margin green">
+                    Welcome to
                 </p>
-                <a href="#" class="btn btn--outline">Learn more &rarr;</a>
+                <h3 class="heading-secondary white">
+                    Health Travel Albania
+                </h3>
+                <p class="hero-description green">
+                    Medical Tourism in Tirana, Albania
+                </p>
+                <a href="#" class="btn btn--outline">
+                    OUR TREATMENTS
+                </a>
             </div>
         </div>
     </section>
 
     <?php include 'pages/counter.php'; ?>
-    <!-- Section 2  -->
     <?php include 'pages/galleryitem.php'; ?>
-    </section>
 
-    <!-- Section 4  -->
+
+
     <section class="describe-section">
         <div class="story__pictures">
             <img src="img/business-meeting-woman-and-happy-with-laptop-wor-2023-09-01-22-19-36-utc 1.jpg"

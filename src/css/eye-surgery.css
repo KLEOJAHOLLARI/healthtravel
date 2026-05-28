@@ -3,21 +3,16 @@
 }
 
 .section-hero {
-  min-height: 0rem;
-  padding: 0;
   background-image: linear-gradient(
-      90deg,
-      #eef8f3 2.85%,
-      rgba(238, 248, 243, 0.7) 40%,
-      rgba(238, 248, 243, 0) 90%
+      to right,
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.15)
     ),
-    url("../img/img-eye-surgery/eye-doted.png");
-  background-position: center;
+    url("../img/img-eye-surgery/eye-suregry.jpg");
   background-size: cover;
-  object-fit: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
-
 .hero {
   gap: 0;
   padding: 0;
@@ -64,10 +59,6 @@
 }
 .img-responsive {
   width: 100% !important;
-}
-
-.hero-description {
-  display: inline;
 }
 
 .hero-img-box {

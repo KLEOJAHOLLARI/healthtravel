@@ -74,16 +74,16 @@
                <div class="footer-describe">
                    <p class="footer-paragraph">If you need expert medical advice, you are welcome to contact us at
                        Health Travel Albania any time. Our lines are open 24/7.</p>
-                   <p class="footer-paragraph footer-green margin-top">+355 6x xxx xxx</p>
+                   <p class="footer-paragraph footer-green margin-top">+355 66 693 7344</p>
                    <p class="footer-paragraph footer-green margin-top margin-bottom-sm"><span
-                           class="footer-paragraph-color-white">Email us:</span>info@healthtravel.com</p>
+                           class="footer-paragraph-color-white">Email us:</span> kleojahollari43@gmail.com</p>
                </div>
            </div>
 
            <nav class="nav-col">
                <p class="footer-heading footer-green">COMPANY</p>
                <ul class="footer-nav">
-                   <li><a class="footer-link" href="#">About</a></li>
+                   <li><a class="footer-link" href="index.php">About</a></li>
                    <li><a class="footer-link" href="#">Blog</a></li>
                    <li><a class="footer-link" href="#">Services</a></li>
                    <li><a class="footer-link" href="#">Doctors</a></li>
